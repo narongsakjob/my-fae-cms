@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  root "home#show"
+
   namespace :admin do
   end
   # mount Fae below your admin namespec
