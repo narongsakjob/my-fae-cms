@@ -25,7 +25,12 @@ module Fae
 
     def structure
       [
-        # scaffold inject marker
+        item('Databases', subitems: [
+
+        ]),
+        item('Pages', subitems: [
+          
+        ])
       ]
     end
 
