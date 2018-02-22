@@ -11,5 +11,12 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
+
+// Modules
+//= require ./test
+
+// Application
+//= require ./app
+
 //= require turbolinks
-//= require_tree .
